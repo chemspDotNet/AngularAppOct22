@@ -1,0 +1,22 @@
+<div style="border: 2px solid blue; height: auto;">
+    <h2>Test Component</h2>
+
+    <button type="button" class="btn btn-success" (click)="login()"> Login</button>
+    <hr>
+    
+    <button type="button" class="btn btn-success" (click)="register()">Register</button>
+    <hr>
+    
+    <button type="button" class="btn btn-success" (click)="getquotes()"> Get Quotes</button>
+    <hr>
+    
+    <button type="button" class="btn btn-success" (click)="addquotes()"> Add New Quote</button>
+    <hr>
+
+    <button type="button" class="btn btn-success" (click)="logOut()"> Log Out</button>
+    <hr>
+    
+
+    
+{{quotes |json}}
+</div>
